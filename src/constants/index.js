@@ -1,3 +1,4 @@
+// filepath: /Users/tony/Desktop/Projects/personal-portfolio/src/constants/index.js
 export const navLinks = [
   {
     id: 1,
@@ -24,45 +25,45 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
+    name: 'Alex Chen',
+    position: 'CTO at CloudTech Solutions',
     img: 'assets/review1.png',
     review:
-      'Working with Tony was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'Working with Thinh was an outstanding experience. His deep understanding of cloud infrastructure across multiple platforms and exceptional Golang skills helped us build a scalable, resilient system that significantly improved our operational efficiency.',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
+    name: 'Sarah Nguyen',
+    position: 'VP Engineering at DataStream',
     img: 'assets/review2.png',
     review:
-      'Tony’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'Thinh\'s expertise in Kubernetes and cloud-native development is truly impressive. He delivered robust infrastructure solutions that seamlessly handle our high throughput requirements while maintaining exceptional reliability and performance. A true professional!',
   },
   {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
+    name: 'David Park',
+    position: 'Lead Architect at InfraOps',
     img: 'assets/review3.png',
     review:
-      'I can’t say enough good things about Tony. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      'I can\'t say enough good things about Thinh\'s work. His ability to design and implement complex multi-cloud solutions while mentoring junior engineers demonstrates both technical excellence and leadership. His problem-solving abilities are outstanding.',
   },
   {
     id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
+    name: 'Mei Wong',
+    position: 'Director of Engineering at TechScale',
     img: 'assets/review4.png',
     review:
-      'Tony was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'Thinh is an exceptional cloud infrastructure engineer. His work on our Kafka pipelines and disaster recovery systems was instrumental in achieving our 99.99% uptime SLA. His deep knowledge of Go, cloud platforms, and infrastructure automation is impressive.',
   },
 ];
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'Web3-based Recruitment System',
+    desc: 'A revolutionary CV verification system leveraging Ethereum smart contracts and on-device federated learning to prevent resume fraud while maintaining user privacy by keeping raw images on user devices.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      'Architected scalable Express.js/MongoDB microservices and a React frontend to streamline secure, high‑performance recruitment workflows at just 0.05 ETH per process.',
+    href: 'https://github.com/thinhngotony/Recruitment-System-IEEE',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -79,27 +80,27 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: 'TailwindCSS',
+        name: 'MongoDB',
         path: 'assets/tailwindcss.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
+        name: 'Ethereum',
         path: '/assets/typescript.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
+        name: 'Express.js',
         path: '/assets/framer.png',
       },
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Recognition and Realtime Streaming',
+    desc: 'Engineered a CUDA-accelerated Python facial-recognition pipeline using Haar Cascade and CNN algorithms with face_recognition, TensorFlow-GPU, and OpenCV-Contrib-Python for robust image analysis.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      'Benchmarked on NVIDIA Jetson Nano, Raspberry Pi, and x86 laptops with NVIDIA GTX 1050 GPU for real-time streaming, achieving significant improvements in accuracy and throughput.',
+    href: 'https://github.com/thinhngotony/Facial-Recognition',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -111,32 +112,32 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
+        name: 'Python',
         path: '/assets/react.svg',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
+        name: 'TensorFlow',
         path: 'assets/tailwindcss.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
+        name: 'CUDA',
         path: '/assets/typescript.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
+        name: 'OpenCV',
         path: '/assets/framer.png',
       },
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'Multi-Cloud SaaS Infrastructure',
+    desc: 'Designed and implemented SaaS solutions across multiple cloud platforms including Azure, AWS, Alicloud, Openstack, Huawei Cloud Stack, and Proxmox. Developed CRUD APIs using Go and cloud-native SDKs.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      'Utilized Golang and KubeKey to engineer high-throughput Kafka pipelines and automate Kubernetes cluster lifecycle management, including worker-node autoscaling and Helm/YAML add-on deployments.',
+    href: '#',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
@@ -150,32 +151,32 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
+        name: 'Golang',
         path: '/assets/react.svg',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
+        name: 'Kubernetes',
         path: 'assets/tailwindcss.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
+        name: 'Cloud',
         path: '/assets/typescript.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
+        name: 'Kafka',
         path: '/assets/framer.png',
       },
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'RFID Systems & API Development',
+    desc: 'Developed and optimized APIs using Golang, Gin framework, Swagger, and Postman, enabling seamless interaction with databases and Google Cloud Platform services for robust RFID system monitoring.',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+      'Built desktop applications using C# with .NET framework and deployed RFID systems and server services on Proxmox, ensuring operational reliability and performance at scale.',
+    href: '#',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
@@ -187,32 +188,32 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
+        name: 'Golang',
         path: '/assets/react.svg',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
+        name: 'C#',
         path: 'assets/tailwindcss.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
+        name: 'GCP',
         path: '/assets/typescript.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
+        name: 'RFID',
         path: '/assets/framer.png',
       },
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    title: 'Cloud Infrastructure Disaster Recovery',
+    desc: 'Designed and developed comprehensive disaster recovery (DR) features for virtual machines, ensuring high availability and seamless failover capabilities across both private and public cloud environments.',
     subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      'Built scalable API server solutions using Golang, leveraging advanced features like Goroutines and gRPC Gateway for optimized performance and concurrency in mission-critical environments.',
+    href: '#',
     texture: '/textures/project/project5.mp4',
     logo: '/assets/project-logo5.png',
     logoStyle: {
@@ -224,22 +225,22 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
+        name: 'Golang',
         path: '/assets/react.svg',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
+        name: 'gRPC',
         path: 'assets/tailwindcss.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
+        name: 'Cloud',
         path: '/assets/typescript.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
+        name: 'API',
         path: '/assets/framer.png',
       },
     ],
@@ -260,28 +261,28 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+    name: 'Skylab Holdings',
+    pos: 'Cloud Infrastructure Engineer',
+    duration: 'May 2023 - Present',
+    title: "Led the design and implementation of SaaS solutions across multiple cloud platforms. Engineered high-throughput Kafka pipelines and automated Kubernetes cluster management using Golang and KubeKey.",
     icon: '/assets/framer.svg',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
+    name: 'AI Power',
+    pos: 'Software Engineer',
+    duration: 'January 2022 - May 2023',
+    title: "Developed and optimized APIs using Golang, Gin framework, and integrated with GCP services. Built desktop applications with C# and .NET, and deployed RFID systems on Proxmox.",
     icon: '/assets/figma.svg',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
+    name: 'Gocviet Co., Ltd',
+    pos: 'Full-stack Developer',
+    duration: 'January 2021 - January 2023',
+    title: "Contributed to website development using PHP, HTML, and CSS. Customized WordPress themes, managed Hostinger VPS infrastructure, and optimized server performance with Cloudflare.",
     icon: '/assets/notion.svg',
     animation: 'salute',
   },

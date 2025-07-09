@@ -23,9 +23,9 @@ const About = () => {
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I'm Ngo Phuc Thinh</p>
+              <p className="grid-headtext">Hi, I'm Ngo Thanh Dat</p>
               <p className="grid-subtext">
-                With 4+ years in cloud infrastructure and development, I specialize in building scalable SaaS solutions 
+                With 2+ years in cloud infrastructure and development, I specialize in building scalable SaaS solutions 
                 using Golang, Kubernetes, and multi-cloud architectures.
               </p>
             </div>

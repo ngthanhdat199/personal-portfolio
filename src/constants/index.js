@@ -1,4 +1,4 @@
-// filepath: /Users/tony/Desktop/Projects/personal-portfolio/src/constants/index.js
+// filepath: /Users/Dan/Desktop/Projects/personal-portfolio/src/constants/index.js
 export const navLinks = [
   {
     id: 1,
@@ -29,7 +29,7 @@ export const clientReviews = [
     position: 'CTO at CloudTech Solutions',
     img: 'assets/review1.png',
     review:
-      'Working with Thinh was an outstanding experience. His deep understanding of cloud infrastructure across multiple platforms and exceptional Golang skills helped us build a scalable, resilient system that significantly improved our operational efficiency.',
+      'Working with Dat was an outstanding experience. His deep understanding of cloud infrastructure across multiple platforms and exceptional Golang skills helped us build a scalable, resilient system that significantly improved our operational efficiency.',
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ export const clientReviews = [
     position: 'VP Engineering at DataStream',
     img: 'assets/review2.png',
     review:
-      'Thinh\'s expertise in Kubernetes and cloud-native development is truly impressive. He delivered robust infrastructure solutions that seamlessly handle our high throughput requirements while maintaining exceptional reliability and performance. A true professional!',
+      'Dat\'s expertise in Kubernetes and cloud-native development is truly impressive. He delivered robust infrastructure solutions that seamlessly handle our high throughput requirements while maintaining exceptional reliability and performance. A true professional!',
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ export const clientReviews = [
     position: 'Lead Architect at InfraOps',
     img: 'assets/review3.png',
     review:
-      'I can\'t say enough good things about Thinh\'s work. His ability to design and implement complex multi-cloud solutions while mentoring junior engineers demonstrates both technical excellence and leadership. His problem-solving abilities are outstanding.',
+      'I can\'t say enough good things about Dat\'s work. His ability to design and implement complex multi-cloud solutions while mentoring junior engineers demonstrates both technical excellence and leadership. His problem-solving abilities are outstanding.',
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ export const clientReviews = [
     position: 'Director of Engineering at TechScale',
     img: 'assets/review4.png',
     review:
-      'Thinh is an exceptional cloud infrastructure engineer. His work on our Kafka pipelines and disaster recovery systems was instrumental in achieving our 99.99% uptime SLA. His deep knowledge of Go, cloud platforms, and infrastructure automation is impressive.',
+      'Dat is an exceptional Backend Engineer. His work on our Kafka pipelines and disaster recovery systems was instrumental in achieving our 99.99% uptime SLA. His deep knowledge of Go, cloud platforms, and infrastructure automation is impressive.',
   },
 ];
 
@@ -63,7 +63,7 @@ export const myProjects = [
     desc: 'A revolutionary CV verification system leveraging Ethereum smart contracts and on-device federated learning to prevent resume fraud while maintaining user privacy by keeping raw images on user devices.',
     subdesc:
       'Architected scalable Express.js/MongoDB microservices and a React frontend to streamline secure, high‑performance recruitment workflows at just 0.05 ETH per process.',
-    href: 'https://github.com/thinhngotony/Recruitment-System-IEEE',
+    href: 'https://github.com/DatngoDan/Recruitment-System-IEEE',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -100,7 +100,7 @@ export const myProjects = [
     desc: 'Engineered a CUDA-accelerated Python facial-recognition pipeline using Haar Cascade and CNN algorithms with face_recognition, TensorFlow-GPU, and OpenCV-Contrib-Python for robust image analysis.',
     subdesc:
       'Benchmarked on NVIDIA Jetson Nano, Raspberry Pi, and x86 laptops with NVIDIA GTX 1050 GPU for real-time streaming, achieving significant improvements in accuracy and throughput.',
-    href: 'https://github.com/thinhngotony/Facial-Recognition',
+    href: 'https://github.com/DatngoDan/Facial-Recognition',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -262,28 +262,19 @@ export const workExperiences = [
   {
     id: 1,
     name: 'Skylab Holdings',
-    pos: 'Cloud Infrastructure Engineer',
-    duration: 'May 2023 - Present',
-    title: "Led the design and implementation of SaaS solutions across multiple cloud platforms. Engineered high-throughput Kafka pipelines and automated Kubernetes cluster management using Golang and KubeKey.",
-    icon: '/assets/framer.svg',
+    pos: 'Backend Engineer',
+    duration: 'Sep 2024 - Present',
+    title: "Developed high-performance backend services in Golang for SONiC hardware integration, enabling real-time network device management and configuration. Built scalable multi-cloud infrastructure solutions across Azure, OpenStack, VMware, and Huawei platforms, managing virtual resource provisioning and service automation. Currently architecting a secure peer-to-peer networking platform with automated WireGuard mesh creation, implementing robust device authentication and encrypted communication protocols.",
+    icon: '/assets/skylab.svg',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'AI Power',
-    pos: 'Software Engineer',
-    duration: 'January 2022 - May 2023',
-    title: "Developed and optimized APIs using Golang, Gin framework, and integrated with GCP services. Built desktop applications with C# and .NET, and deployed RFID systems on Proxmox.",
-    icon: '/assets/figma.svg',
+    name: 'Tanca.io',
+    pos: 'Back End Developer',
+    duration: 'May 2023 - Sep 2024',
+    title: "Enhanced system performance and architecture by implementing Redis caching solutions that boosted website speed by 40%, developed MongoDB-based analytics features for data-driven insights, and streamlined inter-service communication using RabbitMQ queues to improve system reliability and scalability.",
+    icon: '/assets/tanca.svg',
     animation: 'clapping',
-  },
-  {
-    id: 3,
-    name: 'Gocviet Co., Ltd',
-    pos: 'Full-stack Developer',
-    duration: 'January 2021 - January 2023',
-    title: "Contributed to website development using PHP, HTML, and CSS. Customized WordPress themes, managed Hostinger VPS infrastructure, and optimized server performance with Cloudflare.",
-    icon: '/assets/notion.svg',
-    animation: 'salute',
-  },
+  }
 ];
